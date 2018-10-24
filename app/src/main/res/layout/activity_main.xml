@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yx.yx_flexboxlayoutdemo.MainActivity">
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:textSize="18sp"-->
+        <!--android:paddingLeft="15dp"-->
+        <!--android:text="FlexboxLayout基本用法"/>-->
+    <!--<Button-->
+        <!--android:padding="10dp"-->
+        <!--android:id="@+id/btn_basic"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="基本属性"-->
+        <!--android:onClick="onLabelClick" />-->
+    <Button
+        android:padding="10dp"
+        android:id="@+id/btn_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="标签布局"
+        android:onClick="onLabelClick" />
+
+    <Button
+        android:padding="10dp"
+        android:id="@+id/btn_center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="中心展开网格布局"
+        android:onClick="onCenterGridClick" />
+
+    <!--<Button-->
+        <!--android:padding="10dp"-->
+        <!--android:id="@+id/btn_wchat_head"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="仿微信聚合头像"-->
+        <!--android:onClick="onWchatHeadClick" />-->
+
+    <!--<Button-->
+        <!--android:padding="10dp"-->
+        <!--android:id="@+id/btn_heart_shaped"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="心形布局"-->
+        <!--android:onClick="onHeartShapedClick" />-->
+
+</LinearLayout>
